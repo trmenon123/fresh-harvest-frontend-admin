@@ -1,0 +1,10 @@
+.custom-container {
+    display: flex;
+    flex-flow: column;
+    background-color: brown;
+    margin-top: 5px;
+}
+
+.custom-container .chat-component {
+    flex: 1;
+}

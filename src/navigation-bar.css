@@ -1,0 +1,95 @@
+.responsive-navbar {
+    background-color: rgb(80, 85, 83) !important;
+    color: #f1f1f1 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.responsive-navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.responsive-navbar ul li {
+    margin-left: 12px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+@media screen and (max-width:1200) {
+    .responsive-navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+    }
+    
+    .responsive-navbar ul li {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: inline-block !important;
+    }
+}
+@media screen and (max-width:1080) {
+    .responsive-navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        padding-right: 36px;
+    }
+    
+    .responsive-navbar ul li {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: inline-block !important;
+    }
+}
+@media screen and (max-width:826) {
+    .responsive-navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .responsive-navbar ul li {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: inline-block !important;
+    }
+}
+@media screen and (max-width:680) {
+    .responsive-navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .responsive-navbar ul li {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: block !important;
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+}
+@media screen and (max-width:420) {
+    .responsive-navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .responsive-navbar ul li {
+        margin-left: 12px;
+        margin-right: 12px;
+        display: block !important;
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+}
